@@ -1,0 +1,29 @@
+[Files]
+Names=Requirements_management,Project_Covering
+RepositoryTool=Boost
+
+[Requirements_management]
+Cover1=Project_Covering
+Cover1Position=1530@950
+GraphicPosition=1540@510
+Type=Word
+Path=Projeto 2 - GeradorDeSinais.docx
+AbsolutePath=C:\Users\psouza\Documents\Gerador-de-Sinais\documentation\Projeto 2 - GeradorDeSinais.docx
+
+[Project_Covering]
+GraphicPosition=1520@1390
+Variable1Name=recurseViValues
+Variable1Value=0
+Variable2Name=absoluteFiles
+Variable2Value=C:\\Users\\psouza\\Documents\\Gerador-de-Sinais\\Signal_generator.lvproj
+Variable3Name=recurseDirValues
+Variable3Value=0
+Variable4Name=files
+Variable4Value=..\\Signal_generator.lvproj
+Variable5Name=defaultDirectory
+Variable5Value=..\\..\\Gerador-de-Sinais
+Variable6Name=analyzeDiagrams
+Variable6Value=true
+Type=LabVIEW
+Path=..\Signal_generator.lvproj
+
