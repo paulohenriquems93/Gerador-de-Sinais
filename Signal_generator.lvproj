@@ -28,8 +28,8 @@
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../../../Desktop/projetos/MVP2/Main.vi"/>
-		<Item Name="trapezoidal_teste.vi" Type="VI" URL="../trapezoidal/trapezoidal_teste.vi"/>
 		<Item Name="trapezoidal_generica.vi" Type="VI" URL="../trapezoidal/trapezoidal_generica.vi"/>
+		<Item Name="trapezoidal_control.vi" Type="VI" URL="../trapezoidal/trapezoidal_control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
