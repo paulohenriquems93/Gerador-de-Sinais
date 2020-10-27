@@ -29,7 +29,9 @@
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../../../Desktop/projetos/MVP2/Main.vi"/>
 		<Item Name="trapezoidal_generica.vi" Type="VI" URL="../trapezoidal/trapezoidal_generica.vi"/>
-		<Item Name="trapezoidal_control.vi" Type="VI" URL="../trapezoidal/trapezoidal_control.vi"/>
+		<Item Name="trapezoidal_control_1.vi" Type="VI" URL="../trapezoidal/trapezoidal_control_1.vi"/>
+		<Item Name="Trapezoidal_controle_forloop_subvi.vi" Type="VI" URL="../trapezoidal/Trapezoidal_controle_forloop_subvi.vi"/>
+		<Item Name="trapezoidal_subvi.vi" Type="VI" URL="../trapezoidal/trapezoidal_subvi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
