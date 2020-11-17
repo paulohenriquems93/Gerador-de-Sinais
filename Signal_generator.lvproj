@@ -29,6 +29,7 @@
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../../../Desktop/projetos/MVP2/Main.vi"/>
 		<Item Name="trapezoidal_subvi.vi" Type="VI" URL="../trapezoidal/trapezoidal_subvi.vi"/>
+		<Item Name="trapezoidal_v1.vi" Type="VI" URL="../trapezoidal/trapezoidal_v1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -69,41 +70,135 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Main Application" Type="EXE">
+			<Item Name="My Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{B511CD8F-BE21-4470-A7C4-3ACBADFC72C8}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{78EABFCD-5B97-4F87-AF3F-FF129EE73305}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6E785ACB-7A01-433E-BB1C-B678B744219E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{60C49FFB-8F0C-4F2C-A86B-A01EB1A722AF}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2CE40C4E-446A-4350-9E11-C85D8BAE8F13}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main Application</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{28361639-7C2B-4F7E-9E0F-A93360930BD6}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">\\br-sao-fs2\AE\AE Public\Teste</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{09FD23A0-93D2-46A2-B12D-FA02255F97C6}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BDB740E9-021E-40AD-B1F1-1C03BEF2415C}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/Main.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E14DB2DD-E011-49B1-8A6D-0145D8676319}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{03EFE89C-70E2-4F65-98F9-4609A3C625A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A9B9C488-ADD7-40F6-AAC2-547427E5CB24}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/trapezoidal_subvi.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/trapezoidal_v1.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Type Definitions</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Project Documentation</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DB7AFD46-4B7C-486C-8D37-AF96033FB3CF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="My Package" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/My Package/Feed</Property>
+				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/My Package/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">signalgenerator_1.0.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">My Package</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.0.0.49153-0+f1</Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">1</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{E73FC32E-E28B-4C12-A22A-CAE05D1954BC}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">Signal_generator</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">My Package</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_maintainer" Type="Str">NI &lt;&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/My Package/Package</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">signalgenerator</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Application</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Signal_generator</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{DB7AFD46-4B7C-486C-8D37-AF96033FB3CF}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{E73FC32E-E28B-4C12-A22A-CAE05D1954BC}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/My Application</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{E73FC32E-E28B-4C12-A22A-CAE05D1954BC}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/My Application</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">Signal_generator</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
